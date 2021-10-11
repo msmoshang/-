@@ -20,6 +20,6 @@ elif c == 3:
       
 elif c == 4:
     e = (input("请输入一个十六进制的数:"))
-    print ("二进制为:",bin(int(str(e),16)))
-    print ("八进制为:",oct(int(str(e),16)))
+    print ("二进制为:",bin(int(str(e),16))[2:])
+    print ("八进制为:",oct(int(str(e),16))[2:])
     print ("十进制为:",str(int(str(e),16)))
